@@ -13,7 +13,7 @@ const Services = () => {
         <h2 className="text-pink-600 uppercase tracking-wide text-md ms-20 mb-10">WHAT EASYTAX AND BOOKKEEPING DO </h2>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-            <img src={serviceimg1} className="w-[70%] rounded-lg shadow" />
+            <img src={serviceimg1} className="h-[300px] w-[90%] rounded-xl shadow" />
           </div>
           <div className='md:w-1/2 text-center'>
             <h5 className='text-3xl mb-5'>Personal Tax Return Services </h5>
@@ -31,7 +31,7 @@ const Services = () => {
             <ContactButton />
           </div>
           <div className='md:w-1/2 flex justify-center'>
-            <img src={serviceimg2} className="w-[70%] rounded-lg shadow" />
+            <img src={serviceimg2} className="h-[300px] w-[90%]  rounded-xl shadow" />
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Services = () => {
       <div>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-            <img src={serviceimg3} className="w-[70%] rounded-lg shadow" />
+            <img src={serviceimg3} className="h-[300px] w-[90%]  rounded-xl shadow" />
           </div>
           <div className='md:w-1/2 text-center'>
             <h5 className='text-3xl mb-5'>Bookkeeping & Payrolls Services   </h5>
@@ -58,7 +58,7 @@ const Services = () => {
             <ContactButton />
           </div>
           <div className='md:w-1/2 flex justify-center'>
-            <img src={serviceimg4} className="w-[70%] rounded-lg shadow" />
+            <img src={serviceimg4} className="h-[300px] w-[90%]  rounded-xl shadow" />
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@ const Services = () => {
       <div>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-            <img src={serviceimg5} className="w-[70%] rounded-lg shadow" />
+            <img src={serviceimg5} className="h-[300px] w-[90%]  rounded-xl shadow" />
           </div>
           <div className='md:w-1/2 text-center'>
             <h5 className='text-3xl mb-5'>Financial Planning  </h5>
