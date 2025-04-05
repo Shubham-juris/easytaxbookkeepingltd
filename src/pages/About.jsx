@@ -11,7 +11,7 @@ const About = () => {
         <h2 className="text-pink-600 uppercase tracking-wide text-md text-center mb-10">About Easytax and Bookkeeping</h2>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-          <img src={aboutimg1} className="w-[70%] rounded-lg shadow"/>
+          <img src={aboutimg1} className="h-[300px] w-[90%]  rounded-xl shadow"/>
           </div>
           <p className="text-gray-700 text-lg md:w-1/2">
             At Easytax and Bookkeeping, we specialize in providing accounting services for small businesses and startups.
@@ -31,7 +31,7 @@ const About = () => {
             to provide customized solutions that meet their specific needs.
           </p>
           <div className='md:w-1/2 flex justify-center'>
-          <img src={aboutimg2} className="w-[70%] rounded-lg shadow"/>
+          <img src={aboutimg2} className="h-[300px] w-[90%]  rounded-xl shadow"/>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@ const About = () => {
         <h3 className="text-4xl font-semibold text-center mb-4">Our Approach</h3>
         <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className='md:w-1/2 flex justify-center'>
-          <img src={aboutimg3} className="w-[70%] rounded-lg shadow"/>
+          <img src={aboutimg3} className="h-[300px] w-[90%]  rounded-xl shadow"/>
           </div>
           <p className="text-gray-700 text-lg md:w-1/2">
             Our approach is centered around building long-term relationships with our clients. We take the time to
