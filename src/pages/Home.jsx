@@ -91,8 +91,8 @@ const Home = () => {
 
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:mt-20 px-4 md:px-16">
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Tax planning
           </h2>
           <img src={taxplan} alt="New Products" className="w-full object-cover" />
@@ -109,8 +109,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Financial Statement
           </h2>
           <img src={financial} alt="Most Popular" className="w-full object-cover" />
@@ -127,8 +127,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Payroll Service
           </h2>
           <img src={payroll} alt="Best Value" className="w-full object-cover" />
@@ -145,8 +145,8 @@ const Home = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:mt-20 px-4 md:px-16">
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Business Formation
           </h2>
           <img src={business} alt="New Products" className="w-full object-cover" />
@@ -163,8 +163,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Tax Preparation
           </h2>
           <img src={taxpre} alt="Most Popular" className="w-full object-cover" />
@@ -180,8 +180,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <h2 className="text-xl font-semibold mb-2 text-center">
+        <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
+          <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Accounting Software
           </h2>
           <img src={accsoft} alt="Best Value" className="w-full object-cover" />
