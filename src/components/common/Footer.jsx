@@ -8,7 +8,7 @@ const Footer = () => {
           <h2 className="text-xl font-semibold">EASYTAX AND BOOKKEEPING</h2>
         </div>
         <div>
-          <p className="text-sm text-gray-600">123 Main Street, City, Country</p>
+          <p className="text-sm text-gray-600">123 Main Street, Hulio, Canada</p>
         </div>
       </footer>
     </>

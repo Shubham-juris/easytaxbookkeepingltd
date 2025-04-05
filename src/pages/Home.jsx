@@ -1,19 +1,18 @@
 import React from "react";
 import img1 from "../assets/Home/img1.jpg";
-import img2 from "../assets/Home/img2.webp";
-import taxplan from '../assets/Home/taxplan.jpg'
-import financial from '../assets/Home/financial.jpg'
-import payroll from '../assets/Home/payroll.jpg'
-import business from '../assets/Home/business.jpg'
-import taxpre from '../assets/Home/taxpre.jpg'
-import accsoft from '../assets/Home/Accsoft.webp'
-import comperhance from '../assets/Home/comperhan.png'
-import proffesinal from '../assets/Home/proffesional.webp'
-import simacco from '../assets/Home/simplified.avif'
-import art from '../assets/Home/artaccount.png'
-import value from '../assets/Home/value.jpg'
-import popular from '../assets/Home/popular.jpg'
-import search from '../assets/Home/seacrch.jpg'
+import taxplan from "../assets/Home/taxplan.jpg";
+import financial from "../assets/Home/financial.jpg";
+import payroll from "../assets/Home/payroll.jpg";
+import business from "../assets/Home/business.jpg";
+import taxpre from "../assets/Home/taxpre.jpg";
+import accsoft from "../assets/Home/Accsoft.webp";
+import comperhance from "../assets/Home/comperhan.png";
+import proffesinal from "../assets/Home/proffesional.webp";
+import simacco from "../assets/Home/simplified.avif";
+import art from "../assets/Home/artaccount.png";
+import value from "../assets/Home/value.jpg";
+import popular from "../assets/Home/popular.jpg";
+import search from "../assets/Home/seacrch.jpg";
 
 const Home = () => {
   return (
@@ -48,54 +47,57 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:mt-20 px-4 md:px-16">
-  <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-    <img
-      src={search}
-      alt="New Products"
-      className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-    />
-    <div className="absolute inset-0 flex items-center justify-center">
-      <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-        New Products
-      </h2>
-    </div>
-  </div>
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
+        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src={search}
+            alt="New Products"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
+              New Products
+            </h2>
+          </div>
+        </div>
 
-  <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-    <img
-      src={popular}
-      alt="Most Popular"
-      className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-    />
-    <div className="absolute inset-0 flex items-center justify-center">
-      <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-        Most Popular
-      </h2>
-    </div>
-  </div>
+        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src={popular}
+            alt="Most Popular"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
+              Most Popular
+            </h2>
+          </div>
+        </div>
 
-  <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-    <img
-      src={value}
-      alt="Best Value"
-      className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-    />
-    <div className="absolute inset-0 flex items-center justify-center">
-      <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-        Best Value
-      </h2>
-    </div>
-  </div>
-</div>
+        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src={value}
+            alt="Best Value"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
+              Best Value
+            </h2>
+          </div>
+        </div>
+      </div>
 
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:mt-20 px-4 md:px-16">
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
         <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Tax planning
           </h2>
-          <img src={taxplan} alt="New Products" className="w-full object-cover" />
+          <img
+            src={taxplan}
+            alt="New Products"
+            className="w-full object-cover"
+          />
           <div className="p-4">
             <p className="text-gray-600">
               Tax planning is the process of analyzing your financial situation
@@ -113,7 +115,11 @@ const Home = () => {
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Financial Statement
           </h2>
-          <img src={financial} alt="Most Popular" className="w-full object-cover" />
+          <img
+            src={financial}
+            alt="Most Popular"
+            className="w-full object-cover"
+          />
           <div className="p-4">
             <p className="text-gray-600">
               A financial statement is a formal record of the financial
@@ -144,12 +150,16 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:mt-20 px-4 md:px-16">
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
         <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Business Formation
           </h2>
-          <img src={business} alt="New Products" className="w-full object-cover" />
+          <img
+            src={business}
+            alt="New Products"
+            className="w-full object-cover"
+          />
           <div className="p-4">
             <p className="text-gray-600">
               Business formation refers to the legal process of creating a new
@@ -167,7 +177,11 @@ const Home = () => {
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Tax Preparation
           </h2>
-          <img src={taxpre} alt="Most Popular" className="w-full object-cover" />
+          <img
+            src={taxpre}
+            alt="Most Popular"
+            className="w-full object-cover"
+          />
           <div className="p-4">
             <p className="text-gray-600">
               Tax preparation is the process of gathering financial information,
@@ -267,7 +281,10 @@ const Home = () => {
         </div>
 
         <div className=" mt-20">
-          <h1 className="text-pink-400 ">THE ART OF ACCOUNTING : A GALLERY OF ESYTEX AND BOOKKEEPING'S BEST WORKS</h1>
+          <h1 className="text-pink-400 ">
+            THE ART OF ACCOUNTING : A GALLERY OF ESYTEX AND BOOKKEEPING'S BEST
+            WORKS
+          </h1>
           <img
             src={art}
             alt="Development"
