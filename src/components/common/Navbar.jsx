@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       <nav>
-        <ul className="flex flex-col md:flex-row gap-4 md:gap-11 text-gray-700 font-medium items-center">
+        <ul className="flex flex-col md:flex-row gap-4 md:gap-15 text-gray-700 font-medium items-center">
           <li>
             <Link to="/" className="hover:text-blue-600">HOME</Link>
           </li>
