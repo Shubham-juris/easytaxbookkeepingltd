@@ -96,7 +96,7 @@ const Home = () => {
           <img
             src={taxplan}
             alt="New Products"
-            className="w-full object-cover"
+            className="w-full h-[45%] object-cover"
           />
           <div className="p-4">
             <p className="text-gray-600">
@@ -118,7 +118,7 @@ const Home = () => {
           <img
             src={financial}
             alt="Most Popular"
-            className="w-full object-cover"
+            className="w-full h-[45%] object-cover"
           />
           <div className="p-4">
             <p className="text-gray-600">
@@ -137,7 +137,7 @@ const Home = () => {
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Payroll Service
           </h2>
-          <img src={payroll} alt="Best Value" className="w-full object-cover" />
+          <img src={payroll} alt="Best Value" className="w-full h-[45%] object-cover" />
           <div className="p-4">
             <p className="text-gray-600">
               A payroll service is a system or company that helps businesses
@@ -145,7 +145,7 @@ const Home = () => {
               uses a payroll service but fails to pay the required payroll taxes
               (like TDS, EPF, ESI, or income tax withholdings), the government
               can file a tax lien against the company. This means the company’s
-              assets could be legally claimed to recover the unpaid taxes.{" "}
+              assets could be legally claimed to recover the unpaid taxes.
             </p>
           </div>
         </div>
@@ -158,7 +158,7 @@ const Home = () => {
           <img
             src={business}
             alt="New Products"
-            className="w-full object-cover"
+            className="w-full h-[45%] object-cover"
           />
           <div className="p-4">
             <p className="text-gray-600">
@@ -180,7 +180,7 @@ const Home = () => {
           <img
             src={taxpre}
             alt="Most Popular"
-            className="w-full object-cover"
+            className="w-full h-[45%] object-cover"
           />
           <div className="p-4">
             <p className="text-gray-600">
@@ -198,7 +198,7 @@ const Home = () => {
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Accounting Software
           </h2>
-          <img src={accsoft} alt="Best Value" className="w-full object-cover" />
+          <img src={accsoft} alt="Best Value" className="w-full h-[45%] object-cover" />
           <div className="p-4">
             <p className="text-gray-600">
               Accounting software is a digital tool or program used by
