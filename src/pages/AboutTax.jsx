@@ -13,7 +13,7 @@ function AboutTax() {
         <h2 className="text-pink-600 uppercase tracking-wide text-md ms-20 mb-10">THINGS YOU NEED TO KNOW ABOUT TAXES  </h2>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-            <img src={abouttaximg1} className="h-[300px] w-[90%] rounded-xl shadow" />
+            <img src={abouttaximg1} className="h-[300px] object-cover w-[90%] rounded-xl shadow" />
           </div>
           <div className='md:w-1/2 text-center'>
             <h5 className='text-3xl mb-5'>You may not have to file a federal income tax return  </h5>
@@ -31,7 +31,7 @@ function AboutTax() {
             <ContactButton />
           </div>
           <div className='md:w-1/2 flex justify-center'>
-            <img src={abouttaximg2}  className="h-[300px] w-[90%]  rounded-xl shadow" />
+            <img src={abouttaximg2}  className="h-[300px] w-[90%] object-cover  rounded-xl shadow" />
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ function AboutTax() {
       <div>
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className='md:w-1/2 flex justify-center'>
-            <img src={abouttaximg3} className="h-[300px] w-[90%]  rounded-xl shadow" />
+            <img src={abouttaximg3} className="h-[300px] w-[90%] object-cover rounded-xl shadow" />
           </div>
           <div className='md:w-1/2 text-center'>
             <h5 className='text-3xl mb-5'>You should file a return even if you can't pay your tax bill    </h5>
