@@ -29,7 +29,7 @@ const Home = () => {
         <div className="w-full md:w-[40%] flex items-center ">
           <div className="w-full text-center md:text-left space-y-4">
             <h2 className="text-pink-400 text-center  md:text-2xl ">WELCOME</h2>
-            <h3 className="text-4xl text-center md:text-5xl font-bold text-gray-700 leading-tight">
+            <h3 className=" text-3xl lg:text-4xl text-center  font-bold text-gray-700 leading-tight">
               Smart Money <br /> Management
             </h3>
             <p className="text-gray-600 text-center text-base md:text-lg">
@@ -37,8 +37,8 @@ const Home = () => {
             </p>
             <div className="flex justify-center">
               <button
-                className="bg-gray-500 text-2xl text-white px-6 py-3
-               rounded-lg hover:bg-gray-700 focus:ring-2 focus:ring-blue-300 transition"
+                className="bg-gray-500 text-xl text-white px-6 py-3
+               rounded-lg hover:bg-gray-700 focus:ring-2 focus:ring-blue-300 cursor-pointer transition"
               >
                 CONTACT US NOW
               </button>
@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 lg:flex-row items-center md:items-stretch gap-10">
         <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
           <img
             src={search}
@@ -88,7 +88,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 lg:flex-row items-center md:items-stretch gap-10">
         <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Tax planning
@@ -150,7 +150,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto flex flex-col mt-15 md:flex-row items-center md:items-stretch gap-10">
+      <div className="max-w-7xl mx-auto flex flex-col mt-15 lg:flex-row items-center md:items-stretch gap-10">
         <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
           <h2 className="text-xl font-semibold mb-8 mt-5 text-center">
             Business Formation
@@ -212,7 +212,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-10">
+      <div className="max-w-7xl mx-auto px-4 py-10">
         <div>
           <h3 className="text-pink-500">About Easytax And Bookkeeping </h3>
         </div>

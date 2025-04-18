@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
    <>
     <div className="max-w-5xl mx-auto px-4 py-10 ">
-            <h1 className='text-5xl text-center text-[#769AA4] font-bold pb-8'>Contact Us</h1>
+            <h1 className='text-5xl text-center  text-[#769AA4] font-bold pb-8'>Contact Us</h1>
             <div className='w-16 h-0.5 mb-10 rounded-2xl bg-gray-300 mx-auto text-center'></div>
             <div className='text-center font-semibold mb-4'>Droup us line!</div>
             <form class="max-w-xl mx-auto">
@@ -18,7 +18,7 @@ const ContactUs = () => {
                     <textarea type="text" placeholder='Massage' class=" w-full p-2 h-40 border border-gray-300 rounded-lg "></textarea>
                 </div>
                 <div className=' w-full text-center'>
-                    <button className=' rounded-sm px-6 py-2 mt-5   bg-[#769AA4]'>Send</button>
+                    <button className=' rounded-sm px-6 py-2 mt-5  cursor-pointer bg-[#769AA4]'>Send</button>
                 </div>
             </form>
         </div>
