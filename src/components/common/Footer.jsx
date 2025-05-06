@@ -8,7 +8,7 @@ const Footer = () => {
           <h2 className="text-xl font-semibold">EASYTAX AND BOOKKEEPING</h2>
         </div>
         <div>
-          <p className="text-sm text-gray-600">2115 27 Ave NE Calgary AB T2E 7E4 <br>www.easytexbookkeeping.com</p>
+          <p className="text-sm text-gray-600">2115 27 Ave NE Calgary AB T2E 7E4 <br>www.easytAxbookkeeping.com</p>
         </div>
       </footer>
     </>
