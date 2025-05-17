@@ -20,6 +20,7 @@ const Navbar = () => {
           <Link to="/about" className="hover:text-blue-600">ABOUT</Link>
           <Link to="/services" className="hover:text-blue-600">SERVICES</Link>
           <Link to="/AboutTax" className="hover:text-blue-600">ABOUT TAXES</Link>
+          <Link to="/career" className="hover:text-blue-600">CAREER</Link>
           <Link to="/ContactUs" className="hover:text-blue-600">CONTACT US</Link>
         </nav>
 
@@ -39,6 +40,7 @@ const Navbar = () => {
             <li><Link to="/about" className="hover:text-blue-600">ABOUT</Link></li>
             <li><Link to="/services" className="hover:text-blue-600">SERVICES</Link></li>
             <li><Link to="/AboutTax" className="hover:text-blue-600">ABOUT TAXES</Link></li>
+              <li> <Link to="/career" className="hover:text-blue-600">CAREER</Link></li>  
             <li><Link to="/ContactUs" className="hover:text-blue-600">CONTACT US</Link></li>
           </ul>
         </nav>
