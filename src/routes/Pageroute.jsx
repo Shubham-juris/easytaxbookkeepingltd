@@ -5,6 +5,7 @@ import Services from '../pages/Services'
 import About from '../pages/About'
 import AboutTax from '../pages/AboutTax'
 import ContactUs from '../pages/ContactUs'
+import Career from '../pages/Career'
 const Pageroute = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Pageroute = () => {
         <Route path='/About' element={<About/>}/>
         <Route path='/AboutTax' element={<AboutTax/>}/>
         <Route path='/ContactUs' element={<ContactUs/>}/>
-
+        <Route path='/career' element={<Career/>}/>
         </Routes> 
     </>
   )
