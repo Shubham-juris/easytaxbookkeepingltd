@@ -9,7 +9,9 @@ const Footer = () => {
           <p>www.easytaxbookkeeping.com</p>
         </div>
         <div>
-          <p className="text-sm text-gray-600">2115 27 Ave NE Calgary AB T2E 7E4 </p>
+          <p className="text-sm text-gray-600">2115 27 Ave NE Calgary AB T2E 7E4 </p><br></br>
+          <p>+1 589-604-5808</p><br></br>
+          <p>easytaxbookkeeping@gmail.com</p>
         </div>
       </footer>
     </>
