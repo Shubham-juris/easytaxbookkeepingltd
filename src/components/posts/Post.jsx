@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Post = ({ job }) => {
   return (
@@ -44,10 +45,11 @@ const Post = ({ job }) => {
           </ul>
         </div>
       )}
-
+      <Link to="/Contactus">
       <button className="mt-4 w-full bg-gray-600 text-white py-2 rounded-lg hover:bg-gray-700 transition">
         Apply Now
       </button>
+      </Link>
     </div>
   );
 };

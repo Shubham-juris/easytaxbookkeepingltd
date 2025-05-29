@@ -13,6 +13,7 @@ import art from "../assets/Home/artaccount.png";
 import value from "../assets/Home/value.jpg";
 import popular from "../assets/Home/popular.jpg";
 import search from "../assets/Home/seacrch.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -36,12 +37,14 @@ const Home = () => {
               Helping You Make Informed <br /> Financial Decisions
             </p>
             <div className="flex justify-center">
+              <Link to="/Contactus">
               <button
                 className="bg-gray-500 text-xl text-white px-6 py-3
                rounded-lg hover:bg-gray-700 focus:ring-2 focus:ring-blue-300 cursor-pointer transition"
               >
                 CONTACT US NOW
               </button>
+              </Link>
             </div>
           </div>
         </div>
