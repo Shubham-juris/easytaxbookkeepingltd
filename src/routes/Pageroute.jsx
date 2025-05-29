@@ -16,7 +16,7 @@ const Pageroute = () => {
         <Route path='/AboutTax' element={<AboutTax/>}/>
         <Route path='/ContactUs' element={<ContactUs/>}/>
         <Route path='/career' element={<Career/>}/>
-        </Routes> 
+     </Routes> 
     </>
   )
 }
