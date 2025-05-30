@@ -14,82 +14,48 @@ import value from "../assets/Home/value.jpg";
 import popular from "../assets/Home/popular.jpg";
 import search from "../assets/Home/seacrch.jpg";
 import { Link } from "react-router-dom";
+import FlipCards from "../components/home/card";
 
 const Home = () => {
   return (
-    <section className="w-full bg-gray-50 py-10 px-4 md:px-10 mt-10">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-stretch gap-10">
-        <div className="w-full md:w-[60%]">
-          <img
-            src={img1}
-            alt="Sample"
-            className="w-full h-auto rounded-xl shadow-md object-cover"
-          />
-        </div>
+    <section className="w-full bg-gray-50 py-10 px-4 md:px-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 px-4 py-16">
+      
+      {/* Image Section - 60% Width */}
+      <div className="w-full md:w-[60%]">
+        <img
+          src={img1}
+          alt="Smart Money Management"
+          className="w-full h-full max-h-[500px] object-cover rounded-2xl shadow-lg"
+        />
+      </div>
 
-        <div className="w-full md:w-[40%] flex items-center ">
-          <div className="w-full text-center md:text-left space-y-4">
-            <h2 className="text-pink-400 text-center  md:text-2xl ">WELCOME</h2>
-            <h3 className=" text-3xl lg:text-4xl text-center  font-bold text-gray-700 leading-tight">
-              Smart Money <br /> Management
-            </h3>
-            <p className="text-gray-600 text-center text-base md:text-lg">
-              Helping You Make Informed <br /> Financial Decisions
-            </p>
-            <div className="flex justify-center">
-              <Link to="/Contactus">
+      {/* Text Section - 40% Width */}
+      <div className="w-full md:w-[40%] flex items-center">
+        <div className="w-full space-y-6 text-center md:text-left">
+          <h2 className="text-pink-500 text-lg font-semibold uppercase tracking-wide">Welcome</h2>
+          <h3 className="text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+            Smart Money <br /> Management
+          </h3>
+          <p className="text-gray-600 text-base md:text-lg">
+            Helping You Make Informed <br /> Financial Decisions
+          </p>
+          <div className="flex justify-center md:justify-start">
+            <Link to="/Contactus">
               <button
-                className="bg-gray-500 text-xl text-white px-6 py-3
-               rounded-lg hover:bg-gray-700 focus:ring-2 focus:ring-blue-300 cursor-pointer transition"
+                className="bg-[#769AA4] hover:bg-[#5e828e] text-white text-base md:text-lg font-medium px-6 py-3 rounded-xl shadow transition duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#769AA4]"
               >
-                CONTACT US NOW
+                Contact Us Now
               </button>
-              </Link>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto flex flex-col mt-15 lg:flex-row items-center md:items-stretch gap-10">
-        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-          <img
-            src={search}
-            alt="New Products"
-            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-              New Products
-            </h2>
-          </div>
-        </div>
+    </div>
 
-        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-          <img
-            src={popular}
-            alt="Most Popular"
-            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-              Most Popular
-            </h2>
-          </div>
-        </div>
-
-        <div className="relative bg-white shadow-md rounded-lg overflow-hidden">
-          <img
-            src={value}
-            alt="Best Value"
-            className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
-          />
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-white text-2xl font-semibold bg-opacity-50 px-4 py-2 rounded">
-              Best Value
-            </h2>
-          </div>
-        </div>
-      </div>
+<FlipCards/>
+      
 
       <div className="max-w-7xl mx-auto flex flex-col mt-15 lg:flex-row items-center md:items-stretch gap-10">
         <div className="bg-pink-200 shadow-md rounded-lg overflow-hidden">
