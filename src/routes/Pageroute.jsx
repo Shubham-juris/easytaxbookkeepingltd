@@ -1,24 +1,26 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
-import Services from '../pages/Services'
-import About from '../pages/About'
-import AboutTax from '../pages/AboutTax'
-import ContactUs from '../pages/ContactUs'
-import Career from '../pages/Career'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "../pages/Home";
+import Services from "../pages/Services";
+import About from "../pages/About";
+import AboutTax from "../pages/AboutTax";
+import ContactUs from "../pages/ContactUs";
+import Career from "../pages/Career";
+import Paralegal from "../pages/Paralegal";
 const Pageroute = () => {
   return (
     <>
-     <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Services' element={<Services/>}/>
-        <Route path='/About' element={<About/>}/>
-        <Route path='/AboutTax' element={<AboutTax/>}/>
-        <Route path='/ContactUs' element={<ContactUs/>}/>
-        <Route path='/career' element={<Career/>}/>
-     </Routes> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/AboutTax" element={<AboutTax />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/paralegal" element={<Paralegal />} />
+      </Routes>
     </>
-  )
-}
+  );
+};
 
-export default Pageroute
+export default Pageroute;
