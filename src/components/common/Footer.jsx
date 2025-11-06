@@ -37,13 +37,13 @@ export default function Footer() {
               <a href="/ContactUs">Contact</a>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <a href="/career">CAREER</a>
+              <a href="/career">Career</a>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <a href="/AboutTax">ABOUT TAXES</a>
+              <a href="/AboutTax">About Taxes</a>
             </li>
             <li className="hover:text-white cursor-pointer">
-              <a href="/paralegal">PARALEGAL</a>
+              <a href="/paralegal">ParaLegal</a>
             </li>
           </ul>
         </div>
