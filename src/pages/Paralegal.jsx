@@ -5,11 +5,10 @@ export default function Paralegal() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200 flex flex-col items-center px-4 py-10">
       <div className="max-w-6xl w-full bg-white rounded-3xl shadow-2xl p-8 md:p-14">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 text-center mb-6">
-          Paralegal Services
-        </h1>
-
-        <p className="text-gray-600 text-lg md:text-xl text-center max-w-3xl mx-auto leading-relaxed mb-12 py-5">
+        <h2 className="text-pink-600 uppercase tracking-wide text-md text-center mb-10">
+          PARALEGAL SERVICES
+        </h2>
+        <p className="text-gray-600 text-lg md:text-xl text-center max-w-3xl mx-auto leading-relaxed mb-12 ">
           Delivering accurate, timely, and professional legal assistance to
           support attorneys, law firms, and corporate legal departments.
         </p>
