@@ -2,6 +2,32 @@ import React from "react";
 import Post from "../components/posts/Post";
 
 const jobListings = [
+   {
+    title: "Finance Manager",
+    postedDate: "November  11, 2025",
+    employer: "Easytax & Books keeping",
+    location: "Calgary, AB",
+    salary: "$39 per hour",
+    employmentType: "Permanent employment",
+    startDate: "As soon as possible",
+    vacancies: 1,
+    jobBankId: "TBD",
+    language: "English",
+    education:
+      "A bachelor’s degree in business administration, economics, commerce or a related field is required.",
+    experience:
+      "Several years of experience in accounting, auditing, budgeting, financial planning and analysis, or other financial activities are required.",
+    responsibilities: [
+      "Plan, organize, and oversee financial operations of the company.",
+      "Develop and implement financial policies and procedures.",
+      "Prepare financial statements, reports, and business forecasts.",
+      "Coordinate and manage budgeting and financial planning processes.",
+      "Evaluate, monitor, and improve financial systems and controls.",
+      "Supervise accounting and finance staff.",
+      "Analyze financial trends and present reports to senior management.",
+    ],
+    benefits: ["Health care plan"],
+  },
   {
     title: "Bookkeeper",
     postedDate: "April 22, 2025",
@@ -144,7 +170,7 @@ const jobListings = [
     ],
     benefits: ["Health care plan"],
   },
-  
+ 
 ];
 
 const Careers = () => {
